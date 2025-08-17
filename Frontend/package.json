@@ -1,0 +1,34 @@
+{
+  "name": "leasevault",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dynamic-labs/ethereum": "^4.26.0",
+    "@dynamic-labs/ethereum-aa": "^4.26.0",
+    "@dynamic-labs/sdk-react-core": "^4.26.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@prisma/client": "^6.14.0",
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "viem": "^2.33.3",
+    "wagmi": "^2.16.3",
+    "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19",
+    "hardhat": "^3.0.0",
+    "prisma": "^6.14.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
