@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:baseSepolia": "hardhat run scripts/deploy.js --network baseSepolia",
+    "flatten": "hardhat flatten"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "hardhat": "^2.26.3",

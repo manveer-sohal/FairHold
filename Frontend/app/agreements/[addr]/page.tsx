@@ -4,11 +4,11 @@ import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 import { isEthereumWallet } from "@dynamic-labs/ethereum";
-import { agreementAbi } from "@/Frontend/lib/escrowAbi";
+import { agreementAbi } from "/Users/manveersohal/FairHold/Frontend/lib/escrowAbi";
 import {
   publicClient,
   walletClientFromDynamicWallet,
-} from "@/Frontend/lib/viem";
+} from "/Users/manveersohal/FairHold/Frontend/lib/viem";
 import { formatEther } from "viem";
 
 export default function AgreementDetail() {

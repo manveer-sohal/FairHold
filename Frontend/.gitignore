@@ -1,0 +1,18 @@
+# Hardhat / Solidity build
+artifacts/
+cache/
+typechain-types/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
+
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/

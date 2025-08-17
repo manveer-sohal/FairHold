@@ -1,7 +1,19 @@
 // app/api/agreements/route.ts (app router) OR pages/api/agreements.ts
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { db } from "/Users/manveersohal/leasevault/lib/db";
+import { db } from "@/lib/db";
+export const agreements = [
+  {
+    id: "draft-1",
+    vendor: "0xVendor...",
+    customer: "0xCustomer...",
+    agreementAddress: "0xYourAgreementAddress",
+    status: "deployed",
+    milestones: [
+      { amount: "100000000000000000", description: "Phase 1", released: false },
+    ],
+  },
+];
 
 const Milestone = z.object({
   amountWei: z.string().regex(/^\d+$/), // stringified wei
