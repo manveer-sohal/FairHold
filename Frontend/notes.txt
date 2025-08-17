@@ -1,0 +1,6 @@
+Make a setup and usage file for dynamic on scaffold eth, I want to move this to a scafold eth 2 project 
+
+If you want, I can drop in ready-to-paste files for:
+	•	/vendor and /customer pages
+	•	a trimmed AcceptAndDeploy button using your existing ABIs
+	•	a Fern on-ramp server stub that reads FERN_API_KEY and returns a fake URL (so your UI flow works today, and you swap in the real endpoints later).
